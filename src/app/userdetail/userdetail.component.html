@@ -1,0 +1,40 @@
+<div class="grids">
+    <div class="left-content">
+        <h2>User Details</h2>
+        <div class="items">
+            <div class="gap">
+                <span class="key">Id: </span>
+                <span class="value">{{userDetail.id}}</span>
+            </div>
+            <div class="gap">
+                <span class="key">First Name: </span>
+                <span class="value">{{userDetail.first_name}}</span>
+            </div>
+            <div class="gap">
+                <span class="key">Last Name: </span>
+                <span class="value">{{userDetail.last_name}}</span>
+            </div>
+            <div class="gap">
+                <span class="key">Email: </span>
+                <span class="value">{{userDetail.email}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="right-content">
+        <div>
+                <div>
+                    <img class="profileImage" [src]="userDetail.avatar">
+                </div>
+        </div>
+    </div>
+</div>
+<hr>
+
+<mat-card>
+    <mat-card-content>
+<div class="summary">
+    <h4>Summary</h4>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rerum labore non numquam dignissimos natus, soluta mollitia sit cumque et, distinctio, ratione debitis repellendus sequi odio alias explicabo voluptatum minima. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis blanditiis consequuntur id deleniti, doloribus sed, aliquam eaque consectetur inventore dolorum pariatur! Corrupti dicta ullam architecto, amet dignissimos blanditiis nisi repudiandae.
+</div>
+    </mat-card-content>
+</mat-card>

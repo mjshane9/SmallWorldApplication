@@ -1,0 +1,74 @@
+.filters{
+    background-color: white;
+    width: 100%;
+}
+
+.fields{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: end;
+}
+
+.form{
+    padding: 2px;
+}
+
+.grids{
+    display: flex;
+}
+
+.left-content{
+    width: 79%;
+}
+
+.right-content{
+    padding-left: 10px;
+    padding-top: 10px;
+    width:20%;
+}
+
+.tiles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.profileImage{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.cellHover:hover{
+    cursor: pointer;
+    color: rgb(0, 81, 255);
+}
+
+:host::ng-deep .right-content{
+    .mat-mdc-form-field-infix{
+        width: 15vw !important;
+    }
+
+    button, select {
+        border: none;
+    }
+}
+
+.card-header{
+    background-color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.list-group{
+    font-weight: 500;
+    padding: 15px;
+}
+
+.list-group-item{
+    border: none;
+}
+    

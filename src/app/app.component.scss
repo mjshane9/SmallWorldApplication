@@ -1,0 +1,10 @@
+.sidebar{
+    height: calc(100% - 40px) !important;
+    position: absolute;
+    left: 0;
+}
+
+.main{
+    width: calc(100% - 180px) !important;
+    margin-left: 11vw;
+}
